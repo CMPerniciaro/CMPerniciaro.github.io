@@ -19,13 +19,13 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: black;
 }
 
 /* about me */
 body {
     color: black;
-    font-size: 1em;
+    font-size: 15px;
     font-family: "Gentium Book Basic", "Helvetica Neue", sans-serif;
 }
 
@@ -54,27 +54,26 @@ body {
 }
 
 .about-me {
-    max-width: 38em;
+    max-width: 550px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
 }
 
 .intro1 > p{
     font-weight: 300;
-    letter-spacing: 0.05em;
+    letter-spacing: 1px;
 }
 
 .intro2 {
     font-weight: 300;
-    letter-spacing: 0.05em;
+    letter-spacing: 1px;
 }
 
 .intro2 > h2 {
     font-family: "Gentium Book Basic", Georgia, serif;
-    font-size: 1.2em;
+    font-size: 20px;
     font-weight: bold;
-    margin: 2em 0 1em 0;
+    margin: 7px 0 1px 0;
 }
 
 .about-footer {
@@ -85,7 +84,7 @@ body {
   text-decoration: none;
   text-align: center;
   font-weight: 300;
-    letter-spacing: 0.05em;
+  letter-spacing: 1px;
 }
 .social > li {
   display: inline-block;
@@ -93,8 +92,9 @@ body {
 }
 
 .about-footer > p {
-  color: white;
+    color: white;
     font-weight: bold;
+    font-size: 15px;
 }
 .about-social-link {
     font-weight: bold;
@@ -104,13 +104,13 @@ body {
 
 @media only screen and (max-width: 500px) {
     .about-header {
-        padding: 3em 0;
+        padding: 5px 0;
     }
     .about-header-name {
-        font-size: 3em;
+        font-size: 5px;
     }
     .about-footer {
-        padding: 2em 2.5em;
+        padding: 1px 1px;
   }
 }
     
